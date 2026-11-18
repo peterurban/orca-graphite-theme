@@ -6,6 +6,7 @@ It contributes:
 
 - **App theme** `Graphite` (dark) – surfaces, sidebars, tabs, chat, diffs, git decorations and editor syntax colours (`tokenColors`) drawn from the Graphite palette.
 - **Terminal theme** `Graphite` – the full 16-colour ANSI palette plus cursor and selection colours.
+- **Graphite Darker** (app and terminal) – an optional variant described below.
 
 ## Palette
 
@@ -25,9 +26,18 @@ The upstream scheme's selection foreground (`#5c5e62`, about 2:1 on the selectio
 
 Graphite has no light variant; pick it for Orca's **Dark** slot.
 
+## Graphite Darker
+
+An optional variant that is not part of the upstream scheme. It uses Graphite's ANSI black (`#15171a`) as the background, for a little more contrast (text 12.3:1 instead of 11.44:1).
+
+- App: background `#15171a`, cards and active tabs `#1c1e22`, sidebars and tab bar `#101214`, so the sidebars stay a step darker than the main area, as in the original.
+- Terminal: background `#15171a`, and ANSI black moves to `#0f1113` so it stays darker than the background. Text drawn in ANSI black will be very hard to see against it.
+
+`#101214` and `#0f1113` are the only colours outside the Graphite palette.
+
 ## Use
 
-After installing, open **Settings → Appearance** and choose **Graphite** as the dark app theme and as the terminal theme.
+After installing, open **Settings → Appearance** and choose **Graphite** (or **Graphite Darker**) as the dark app theme and as the terminal theme.
 
 ## Develop
 

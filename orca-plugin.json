@@ -3,8 +3,8 @@
   "manifestVersion": 2,
   "id": "graphite",
   "name": "Graphite",
-  "version": "0.1.0",
-  "description": "Graphite: a soft, low-glare dark theme for the Orca app and terminal.",
+  "version": "0.2.0",
+  "description": "Graphite: a soft, low-glare dark theme for the Orca app and terminal, plus a darker variant.",
   "author": {
     "name": "Peter Urban"
   },
@@ -19,6 +19,11 @@
         "id": "graphite",
         "title": "Graphite",
         "path": "themes/graphite.json"
+      },
+      {
+        "id": "graphite-darker",
+        "title": "Graphite Darker",
+        "path": "themes/graphite-darker.json"
       }
     ],
     "terminalThemes": [
@@ -26,6 +31,11 @@
         "id": "graphite",
         "title": "Graphite",
         "path": "terminal/graphite.json"
+      },
+      {
+        "id": "graphite-darker",
+        "title": "Graphite Darker",
+        "path": "terminal/graphite-darker.json"
       }
     ]
   }
