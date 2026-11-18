@@ -1,0 +1,32 @@
+{
+  "$schema": "https://raw.githubusercontent.com/stablyai/orca/main/docs/schemas/plugins/orca-plugin.v2.schema.json",
+  "manifestVersion": 2,
+  "id": "graphite",
+  "name": "Graphite",
+  "version": "0.1.0",
+  "description": "Graphite: a soft, low-glare dark theme for the Orca app and terminal.",
+  "author": {
+    "name": "Peter Urban"
+  },
+  "license": "MIT",
+  "engines": {
+    "orca": ">=1.4.246"
+  },
+  "execution": "data",
+  "contributes": {
+    "themes": [
+      {
+        "id": "graphite",
+        "title": "Graphite",
+        "path": "themes/graphite.json"
+      }
+    ],
+    "terminalThemes": [
+      {
+        "id": "graphite",
+        "title": "Graphite",
+        "path": "terminal/graphite.json"
+      }
+    ]
+  }
+}
