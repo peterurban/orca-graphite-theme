@@ -8,6 +8,7 @@
   "author": {
     "name": "Peter Urban"
   },
+  "repository": "https://github.com/peterurban/orca-graphite-theme",
   "license": "MIT",
   "engines": {
     "orca": ">=1.4.246"
