@@ -3,7 +3,7 @@
   "manifestVersion": 2,
   "id": "graphite",
   "name": "Graphite",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Graphite: a soft, low-glare dark theme for the Orca app and terminal, plus a darker variant.",
   "author": {
     "name": "Peter Urban"
@@ -14,6 +14,24 @@
     "orca": ">=1.4.246"
   },
   "execution": "data",
+  "cover": {
+    "path": "images/cover.png",
+    "alt": "Graphite Theme cover: the 16 Graphite terminal colours beside an Orca window using the Graphite theme"
+  },
+  "screenshots": [
+    {
+      "path": "images/screenshot-graphite.png",
+      "alt": "Orca using the Graphite theme, with a theme file open in the editor and the project file tree on the right",
+      "caption": "Graphite",
+      "theme": "dark"
+    },
+    {
+      "path": "images/screenshot-graphite-darker.png",
+      "alt": "Orca using the Graphite Darker theme, with a darker #15171a background",
+      "caption": "Graphite Darker",
+      "theme": "dark"
+    }
+  ],
   "contributes": {
     "themes": [
       {
